@@ -1,0 +1,38 @@
+{
+  "greater_paths": {
+    "the_wanderer": "https://en.wikipedia.org/wiki/The_Fool_(tarot_card)",
+    "the_weaver": "https://en.wikipedia.org/wiki/The_Magician_(tarot_card)",
+    "the_silent_keeper": "https://en.wikipedia.org/wiki/The_High_Priestess",
+    "the_nurturer": "https://en.wikipedia.org/wiki/The_Empress",
+    "the_architect": "https://en.wikipedia.org/wiki/The_Emperor",
+    "the_lorekeeper": "https://en.wikipedia.org/wiki/The_Hierophant",
+    "the_twin_flames": "https://en.wikipedia.org/wiki/The_Lovers",
+    "the_iron_chariot": "https://en.wikipedia.org/wiki/The_Chariot_(tarot_card)",
+    "the_tamer": "https://en.wikipedia.org/wiki/Strength_(tarot_card)",
+    "the_lone_seeker": "https://en.wikipedia.org/wiki/The_Hermit",
+    "the_turning_wheel": "https://en.wikipedia.org/wiki/Wheel_of_Fortune",
+    "the_balancer": "https://en.wikipedia.org/wiki/Justice_(tarot_card)",
+    "the_suspended": "https://en.wikipedia.org/wiki/The_Hanged_Man",
+    "the_reckoning": "https://en.wikipedia.org/wiki/Death_(tarot_card)",
+    "the_alchemist": "https://en.wikipedia.org/wiki/Temperance_(tarot_card)",
+    "the_shadow_binder": "https://en.wikipedia.org/wiki/The_Devil_(tarot_card)",
+    "the_spire": "https://en.wikipedia.org/wiki/The_Tower_(tarot_card)",
+    "the_guiding_light": "https://en.wikipedia.org/wiki/The_Star_(tarot_card)",
+    "the_veiled_moon": "https://en.wikipedia.org/wiki/The_Moon_(tarot_card)",
+    "the_radiant_sun": "https://en.wikipedia.org/wiki/The_Sun_(tarot_card)",
+    "the_awakening": "https://en.wikipedia.org/wiki/Judgement_(tarot_card)",
+    "the_completed_circle": "https://en.wikipedia.org/wiki/The_World_(tarot_card)"
+  },
+  "lesser_paths": {
+    "ember_staves": "https://en.wikipedia.org/wiki/Suit_of_Wands",
+    "tide_vessels": "https://en.wikipedia.org/wiki/Suit_of_Cups",
+    "wind_blades": "https://en.wikipedia.org/wiki/Suit_of_Swords",
+    "stone_sigils": "https://en.wikipedia.org/wiki/Suit_of_Pentacles"
+  },
+  "elements": {
+    "fire": "https://en.wikipedia.org/wiki/Fire_(classical_element)",
+    "water": "https://en.wikipedia.org/wiki/Water_(classical_element)",
+    "air": "https://en.wikipedia.org/wiki/Air_(classical_element)",
+    "earth": "https://en.wikipedia.org/wiki/Earth_(classical_element)"
+  }
+}

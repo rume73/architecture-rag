@@ -1,0 +1,83 @@
+{
+  "The Fool": "The Wanderer",
+  "Fool": "Wanderer",
+  "Fools": "Wanderers",
+
+  "The Magician": "The Weaver",
+  "Magician": "Weaver",
+
+  "The High Priestess": "The Silent Keeper",
+  "High Priestess": "Silent Keeper",
+
+  "The Empress": "The Nurturer",
+  "Empress": "Nurturer",
+
+  "The Emperor": "The Architect",
+  "Emperor": "Architect",
+
+  "The Hierophant": "The Lorekeeper",
+  "Hierophant": "Lorekeeper",
+
+  "The Lovers": "The Twin Flames",
+  "Lovers": "Twin Flames",
+
+  "The Chariot": "The Rolling Vessel",
+  "Chariot": "Rolling Vessel",
+
+  "Strength": "The Tamer",
+  "The Hermit": "The Lone Seeker",
+  "Hermit": "Lone Seeker",
+
+  "Wheel of Fortune": "The Turning Wheel",
+
+  "Justice": "The Balancer",
+  "The Hanged Man": "The Suspended",
+  "Hanged Man": "Suspended",
+
+  "Death": "The Reckoning",
+
+  "Temperance": "The Alchemist",
+
+  "The Devil": "The Shadow Binder",
+  "Devil": "Shadow Binder",
+
+  "The Tower": "The Spire",
+  "Tower": "Spire",
+
+  "The Star": "The Guiding Light",
+  "Star": "Guiding Light",
+
+  "The Moon": "The Pale Lantern",
+  "Moon": "Pale Lantern",
+
+  "The Sun": "The Golden Hearth",
+  "Sun": "Golden Hearth",
+
+  "Judgement": "The Awakening",
+  "Judgment": "The Awakening",
+
+  "The World": "The Completed Circle",
+  "World": "Completed Circle",
+
+  "Major Arcana": "Greater Paths",
+  "Minor Arcana": "Lesser Paths",
+
+  "Wands": "Ember Staves",
+  "Wand": "Ember Stave",
+  "Cups": "Tide Vessels",
+  "Cup": "Tide Vessel",
+  "Swords": "Wind Blades",
+  "Sword": "Wind Blade",
+  "Pentacles": "Stone Sigils",
+  "Pentacle": "Stone Sigil",
+  "Coins": "Stone Sigils",
+  "Coin": "Stone Sigil",
+
+  "Upright": "Ascendant",
+  "Reversed": "Descendant",
+
+  "Tarot": "The Paths",
+  "tarot": "the Paths",
+
+  "The Fool's Journey": "The Wanderer's Path"
+}
