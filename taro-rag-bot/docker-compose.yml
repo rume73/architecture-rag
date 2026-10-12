@@ -1,0 +1,16 @@
+services:
+  bot:
+    build: .
+    container_name: taro-rag-bot
+    env_file:
+      - .env
+    volumes:
+      - ./index:/app/index
+      - ./logs:/app/logs
+      - hf_cache:/app/.cache/huggingface
+    stdin_open: true
+    tty: true
+    restart: "no"
+
+volumes:
+  hf_cache:

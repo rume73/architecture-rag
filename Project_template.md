@@ -220,6 +220,7 @@ FAISS демонстрирует впечатляющие показатели. 
 
 ## Как запустить
 
+## Локально
 ```bash
 # 1. Установить зависимости
 pip install -r requirements.txt
@@ -232,6 +233,15 @@ python scripts/build_index.py
 
 # 4. Запустить бота
 python bot.py
+```
+## Через Docker
+```bash
+# 1. Убедиться, что индекс построен
+python scripts/build_index.py
+
+# 2. Собрать и запустить
+docker compose build
+docker compose run --rm bot
 ```
 
 
