@@ -1,3 +1,4 @@
+import re
 from dataclasses import dataclass
 
 import chromadb
@@ -7,6 +8,39 @@ from .config import (
     CHROMA_DIR, COLLECTION_NAME, EMBEDDING_MODEL,
     TOP_K, SCORE_THRESHOLD,
 )
+
+
+SUSPICIOUS_PATTERNS = [
+    r"ignore\s+all\s+instructions",
+    r"ignore\s+previous",
+    r"output\s*:",
+    r"system\s*:",
+    r"password\s*:",
+    r"secret\s*:",
+    r"swordfish",
+    r"root\s*:",
+    r"<\|.*?\|>",
+    r"```.*?```",
+]
+
+
+def is_suspicious(text: str) -> bool:
+    """Проверяет, содержит ли чанк подозрительные конструкции."""
+    text_lower = text.lower()
+    for pattern in SUSPICIOUS_PATTERNS:
+        if re.search(pattern, text_lower):
+            return True
+    return False
+
+
+def filter_chunks(chunks):
+    safe = []
+    for c in chunks:
+        if is_suspicious(c.text):
+            print(f"[SECURITY] Отфильтрован чанк: {c.source} (score={c.score:.3f})")
+            continue
+        safe.append(c)
+    return safe
 
 
 @dataclass
